@@ -1,0 +1,126 @@
+body {
+    background: #1c1c1c;
+    display: flex;
+    margin: 0;
+    color: white;
+}
+
+.password {
+    background: #1F2937;
+    margin-right: 30px;
+    padding: 52px;
+    width: 720px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.heading {
+    color: #ffffff;
+    font-family: 'Karla', sans-serif;
+    width: 300px;
+}
+
+.heading2 {
+    color: #4ADF86;
+}
+
+.subheading {
+    font-family: 'Inter', sans-serif;
+    color: #D5D4D8;
+}
+
+.line {
+    padding-bottom: 20px;
+    border-bottom: 1px solid #2F3E53;
+}
+
+.button1 {
+    background: #10B981;
+    margin-top: 30px;
+    border: none;
+    justify-content: center;
+    padding: 9px 17px 9px 15px;
+    border-radius: 6px;
+    color: #ffffff;
+    font-family: 'Inter', sans-serif;
+}
+
+.divflex {
+    display: flex;
+    justify-content: space-around;
+    font-family: "Inter", sans-serif;
+}
+
+.range-selector {
+    width: 100%;
+    display: flex;
+}
+
+.slider {
+    -webkit-appearance: none;
+    appearance: none;
+    margin-top: 15px;
+    margin-left: 10px;
+    width: 40%;
+    height: 3px;
+    border-radius: 15px;
+    background: #304e77;
+    outline: none;
+    opacity: 0.7;
+    -webkit-transition: .2s;
+    transition: opacity .2s;
+}
+
+#value-box {
+    width: 30px;
+    height: 25px;
+    background: #304e77;
+    border-radius: 8px;
+    text-align: center;
+    padding-top: 5px;
+    font-family: 'Inter', sans-serif;
+    color:#4ADF86;
+}
+
+#checkbox-style{
+    color: white;
+}
+
+.password-style {
+    margin-top: 4px;
+    margin-bottom: 0px;
+}
+
+.passwordbox {
+    background: #273549;
+    width: 200px;
+    height: 25px;
+    margin-top: 10px;
+    margin-bottom: 0px;
+    padding-top: 5px;
+    border-radius: 6px;
+    color: #55F991;
+    text-align: center;
+    border: none;
+}
+
+#password-copy1{
+    width: 200px;
+    height: 25px;
+    margin-top: 0px;
+    text-align: center;
+    background: #1F2937;;
+    border: none;
+    color: #ffffff;
+}
+
+#password-copy2{
+    width: 200px;
+    height: 25px;
+    margin-top: 0px;
+    text-align: center;
+    background: #1F2937;;
+    border: none;
+    color: #ffffff;
+}
+
